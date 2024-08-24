@@ -1,5 +1,5 @@
 /* Created by Anthony Hall */
-/* Updated on June 8, 2023 */
+/* Updated on August 24, 2024 */
 
 /* Define global vars */
 let apiKey = "95b40b7251d7c4d04d5bc72b6c0d970e";
@@ -988,7 +988,6 @@ function convertUTC(utcSeconds,timeRequestSource,value) {
         };
         return searchTime.textContent = "current time is " + onlyTimeConvertFirstNumber + ":" + onlyTimeConverted[1] + onlyTimeDay;
     };
-    
 };
 
 function errorNoCityName(location) {
